@@ -49,7 +49,7 @@ function Register() {
         const response =
           await axios.post(
 
-            "https://nodelogin-7rzg.onrender.com/Login",
+            "https://nodelogin-7rzg.onrender.com/api/authLogin",
 
             {
               name,

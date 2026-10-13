@@ -46,7 +46,7 @@ function Login() {
         const response =
           await axios.post(
 
-            "https://nodelogin-7rzg.onrender.com/register",
+            "https://nodelogin-7rzg.onrender.com/api/auth/register",
 
             {
               email,
